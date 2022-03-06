@@ -17,7 +17,6 @@ export default class NetworkView {
 	static async tapAddNetworkButton() {
 		await TestHelpers.tap(ADD_NETWORK_BUTTON_ID);
 	}
-
 	static async tapNetworks() {
 		await TestHelpers.tapByText('Networks');
 	}

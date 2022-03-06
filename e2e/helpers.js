@@ -55,7 +55,7 @@ export default class TestHelpers {
 
 	static async tapAndLongPress(elementId) {
 		await TestHelpers.tap(elementId);
-		return element(by.id(elementId)).longPress(2000);
+		return element(by.id(elementId)).longPress(5000);
 	}
 
 	static async tapAndLongPressAtIndex(elementId, index) {
